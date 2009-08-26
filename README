@@ -1,0 +1,23 @@
+NGINXiFY (i'm a 1337 hack0r -_-) takes a folder with apache files and transforms them to nginx config files.
+
+# folder where your apache files are
+input_folder = "/Users/rickashley/conf/"
+
+# folder where you want your nginx files 
+output_folder = "/Users/rickashley/nginx"
+
+nginx = Nginxify::Base.new(input_folder, output_folder)
+nginx.convert!
+
+You will need to rename your nginx files when they are down processing they will have .nginx suffixed.
+
+This is in no way tested or reliable, if it explodes your computer don't blame me but fix it! (please)
+
+    /---------------------/
+   | thanks for reading  |
+   /---------------------/
+ 0
+\|/
+/\
+
+^^ That's me
